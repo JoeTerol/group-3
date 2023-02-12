@@ -1,3 +1,56 @@
-body {
-    max-width: 100vh;
+.container-icon svg{
+    width: 20vh;
+    height:10vh;
+    color: white;
+}
+
+.container-icon::after,.container-icon::before{
+    content:'';
+    position: absolute;
+    width: 500px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    top: 3em;
+}
+
+.container-icon::before{
+    left: 5%;
+}
+
+.container-icon::after{
+    right: 5%;
+}
+
+.container-icon{
+    text-align: center;
+    padding-top: 1%;
+    position: relative;
+}
+
+footer{
+    width: 100%;
+    background:linear-gradient(rgb(103, 103, 103), black) ;
+    height: 30vh;
+}
+
+.container-title{
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.container-repositories{
+    display: flex;
+    color: white;
+    justify-content: center;
+    
+}
+
+.container-repositories p{
+    margin-left: 2%;
+}
+
+.container-repositories a{
+    color: white;
+    text-decoration: none;
 }
