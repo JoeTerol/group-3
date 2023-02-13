@@ -2,7 +2,9 @@ h1 {
     margin-top: 3vh;
     text-align: center;
 }
-
+body {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/fda65281584959.5d03aa14eb36f.jpg);
+}
      
 h2 {
     font-size: 1.5em;
@@ -14,6 +16,7 @@ h2 {
 }
 .card {
     margin: 10vh;
+   
 }
 .container-button{
     display: flex;
@@ -22,4 +25,11 @@ h2 {
 }
 .container-form {
     background-color: rgb(132, 131, 131);
+}
+.card:hover { 
+    background-color: grey;
+    box-shadow: 10px 5px 5px lightskyblue;
+    
+
+
 }
