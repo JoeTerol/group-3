@@ -1,0 +1,56 @@
+h1 {
+    margin-top: 3vh;
+    text-align: center;
+}
+body {
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/fda65281584959.5d03aa14eb36f.jpg);
+}
+     
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    margin: 10vh;
+    text-shadow: 2px 2px rgb(169, 169, 177);
+    padding-top: 5vh;
+}
+/*cards*/
+
+.container-card { 
+    display:  flex;
+   
+}
+.card {
+    margin: 10vh;
+    transition: all 0.5s ease;
+   
+}
+.card:hover { 
+    background-color: grey;
+    box-shadow: 10px 5px 5px lightskyblue;
+    color: azure;
+    font-weight: bold;
+    
+
+
+}
+/*form*/
+.container-button{
+    display: flex;
+    justify-content: center;
+
+}
+.container-form {
+    background-color: rgb(132, 131, 131);
+    margin: 30vh;
+    padding-right: 10vh;
+    padding-left: 10vh;
+    border-radius: 10%;
+}
+.orange {
+    background-color: orangered;
+    border: 2px solid orange;
+}
+/*carousel*/
+.carousel-photo {
+    margin: 30vh;
+}
