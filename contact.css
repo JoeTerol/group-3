@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ body {
+    background-image: url(https://img.freepik.com/vector-premium/elemento-viaje-dibujado-mano-ilustracion-vectorial_686646-106.jpg?w=740)
+
+}
+
+.form-contact {
+    text-align: center;
+    width: 450px; 
+    padding: 10px 20px;
+    margin:auto;
+    margin-top: 80px;
+    background: rgba(0,0,0,0.7);
+    border-radius: 6px; 
+    box-shadow: 36px 20px 36px black
+}
+
+.controls {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    background-color:rgb(238, 238, 231);
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px; 
+    border: 4px solid  #49a09d;
+}
+
+.controls:hover {
+    cursor: pointer;
+}
+
+.form-contact h1 {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid;
+    height: 30px;
+    color: white;
+
+}
+
+input, textarea {
+   font-family: 'Times New Roman', Times, serif;
+   font-size:17px;
+   width: 100%;  
+   margin-bottom:30px ;
+   padding: 10px;
+   border:none;
+}
+
+textarea {
+    background-color:rgb(238, 238, 231);
+    border-radius: 6px;
+    border: 4px solid #49a09d ;
+    min-height: 100px ;
+    max-height: 200px;
+    max-width: 100%;   
+}
+.button {
+    background: #5f2c82; 
+    background: -webkit-linear-gradient(to right, #49a09d, #5f2c82); 
+    background: linear-gradient(to right, #49a09d, #5f2c82); 
+    padding: 10px;
+    color: beige;
+}
+
+.button:hover {
+cursor: pointer;
+}
